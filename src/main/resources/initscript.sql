@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS HANDLES (handle varchar(30) unique not null)
