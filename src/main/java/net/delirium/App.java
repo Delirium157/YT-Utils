@@ -5,9 +5,11 @@ import java.awt.*;
 import java.sql.SQLException;
 
 public class App {
-    private final String TITLE = "YT Utils";
+    private static final String TITLE = "YT Utils";
 
-    public App() {
+    private App() {}
+
+    public static void run() {
         JFrame f = new JFrame(TITLE);
 
         JPanel handlesEntryPanel = new JPanel();

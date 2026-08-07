@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXISTS HANDLES (handle varchar(30) unique not null)
+CREATE TABLE IF NOT EXISTS HANDLES (handle varchar(30) unique not null, feed varchar(255) unique)
